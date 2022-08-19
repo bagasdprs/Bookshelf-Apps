@@ -1,2 +1,0 @@
-# Dicoding Repository
-# Bookshelf-Apps
