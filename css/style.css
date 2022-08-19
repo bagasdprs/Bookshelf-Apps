@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, input, button {
+  font-family: 'Poppins', sans-serif;
+}
+
+input, button {
+  font-size: 14px;
+}
+
+.headBar {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0047b3;
+  color: white;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.inputSection {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.inputSection > h2 {
+  text-align: center;
+  color: #0080ff;
+}
+
+.inputSection > form > .input {
+  margin: 15px 0;
+}
+
+.inputSection > form > button {
+  background-color: rgb(19, 80, 191);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.inputSection > form > button > span {
+  font-weight: bold;
+}
+
+.inputSection > form > .input > input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.inputSection > form > .input > label {
+  color: #0080ff;
+  font-weight: bold;
+}
+
+.inputSection > form > .input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.inputSection > form > .input_inline > label {
+  color: #0080ff;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.searchSection {
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.searchSection > h2 {
+  text-align: center;
+  color: #0080ff;
+}
+
+.searchSection > form {
+  padding: 30px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr 0.5fr;
+  grid-gap: 10px;
+}
+
+.searchSection > form > label {
+  display: flex;
+  align-items: center;
+}
+
+.searchSection > form > input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.searchSection > form > button {
+  background-color: rgb(19, 80, 191);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bookShelf {
+    margin: 16px 0 0 0;
+    border: 2px solid black;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.bookShelf > h2 {
+    color: #0080ff;
+}
+
+.bookShelf > .bookList {
+    padding: 17px;
+}
+
+.bookShelf > .bookList > .book_item {
+  padding: 8px 16px 16px 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.bookShelf > .bookList > .book_item > h3, p {
+  margin: 8px 0;
+}
+
+.bookShelf > .bookList > .book_item > .action > button {
+  border: 0;
+  padding: 5px;
+  margin: 0 5px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bookShelf > .bookList > .book_item > .action > .green {
+  background-color: darkgreen;
+  color: white;
+}
+
+.bookShelf > .bookList > .book_item > .action > .red {
+  background-color: darkred;
+  color: white;
+}
